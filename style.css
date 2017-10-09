@@ -6,22 +6,19 @@
 #nav {
   background-color: #ff6600;
   width: 100%;
-  border: 1px solid red;
-  
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;    /* 加上這一行 */
+  z-index: 100;
 }
 
 #content {
-  border: 1px solid blue; /* 標示用，完成排版後刪除*/
   position: relative;
   top: 78px;
-  padding: 15px;}
+  padding: 15px;
+}
 
 .container {
-  border: 1px solid #ccc;  /* 標示用，完成排版後刪除*/
   width: 800px;
   margin: 0 auto;
 }
@@ -31,7 +28,6 @@
 }
 
 #about, #my-work, #contact-me {
-  border: 1px solid yellow;
 }
 
 .menu {
@@ -42,7 +38,6 @@
   width: 150px;
   padding: 10px 0px;
 
-  border: 1px solid #fff;
   border-radius: 8px;
 
   list-style-type: none;
@@ -60,7 +55,6 @@ a {
 }
 
 li:hover  {
-  border: 1px solid #ff6600;
   background-color: #fff;
 }
 
@@ -105,9 +99,6 @@ hr {
   border: 0.5px solid #eee;
 }
 
-
-
-
 /* about me */
 
 #my-avatar {
@@ -129,7 +120,6 @@ hr {
 }
 
 .item-info {
-  border: 1px solid red;                    /* 標示用，排版完記得拿掉 */
   background-color: rgba(255,255,255,.8);   /* 背景半透明 */
 
   position: absolute;
@@ -144,7 +134,6 @@ hr {
 
   /*作法二：利用 display 切換*/
  display: none;
-
 }
 
   /*作法二：利用 display 切換*/
@@ -155,24 +144,19 @@ hr {
 
 
 .item img{
-  width: 100%;}
+  width: 100%;
+}
 
 /*contact-me*/
 
-  #contact-me {
-  border: 1px solid green;  /* 標示用，完成後刪除 */
-}
-
 form.contact-form {
-  border: 1px solid red;  /* 標示用，完成後刪除 */
   width: 50%;
   margin: 0 auto;
 }
 
-  .form-row {
+.form-row {
   margin-bottom: 15px;
 }
-
 
 .form-row input, .form-row textarea {
   border-radius: 3px;
